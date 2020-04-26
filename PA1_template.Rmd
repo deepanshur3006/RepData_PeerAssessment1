@@ -5,13 +5,14 @@ title: 'Reproducible Research: Peer Assessment 1'
 
 ## Loading and preprocessing the data
 
-### Loading the two required packages: dplyr and ggplot2
+### Loading the four required packages: dplyr, knitr, rmarkdown and ggplot2
 
 ```{r, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
 
 library(dplyr)
 library(ggplot2)
-
+library(knitr)
+library(rmarkdown)
 ```
 
 ### Reading the csv file into a dataframe named activitydata
